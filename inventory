@@ -11,13 +11,15 @@ node
 [all:vars]
 
 # Kubernetes
-kube_version=v1.9.3
+#kube_version=v1.9.3
+kube_version=v1.10.1
 token=b0f7b8.8d1767876297d85c
 
 # 1.8.x feature=--feature-gates SelfHosting=true
 init_opts=""
+ansible_user="root"
 
-# Any other additional opts you want to add.. 
+# Any other additional opts you want to add..
 kubeadm_opts=""
 # For example:
 # kubeadm_opts='--apiserver-cert-extra-sans "k8s.domain.com,kubernetes.domain.com"'
