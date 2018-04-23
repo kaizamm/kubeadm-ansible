@@ -20,7 +20,7 @@ init_opts=""
 ansible_user="root"
 
 # Any other additional opts you want to add..
-kubeadm_opts=""
+kubeadm_opts="--apiserver-advertise-address=192.16.35.12"
 # For example:
 # kubeadm_opts='--apiserver-cert-extra-sans "k8s.domain.com,kubernetes.domain.com"'
 
